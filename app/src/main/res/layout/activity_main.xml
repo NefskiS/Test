@@ -4,12 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#00BCD4"
     tools:context=".MainActivity">
 
     <include
-        android:layout_height="200dp"
+        layout="@layout/test_layout"
         android:layout_width="200dp"
-        layout="@layout/test_layout" />
+        android:layout_height="200dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
